@@ -29,7 +29,7 @@ namespace LimpiadorArchivosYCarpetasTemp
                 LimpiarDirectorio(ruta);
             }
             Console.WriteLine("Proceso de limpieza finalizado.........");
-            Console.ReadKey();
+            Console.ReadKey();// Pausa para ver resultados en consola, se puede eliminar si se desea programar en una tarea
         }
 
         // Método para limpiar un directorio específico
